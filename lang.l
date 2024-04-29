@@ -1,6 +1,6 @@
 # This is translation file. You can translate your words in here.
 # I Use custom pattern with regex so may be have some bugs.
-# Each line for a translation. Use \"#\" to comment.
+# Each line for a translation. Use "#" to comment.
 # Words combine like this: "Original words"-"Translate words"
 
 "Arena 1"-"1阶竞技场"
