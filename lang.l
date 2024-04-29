@@ -1,4 +1,9 @@
-﻿"Arena 1"-"1阶竞技场"
+# This is translation file. You can translate your words in here.
+# I Use custom pattern with regex so may be have some bugs.
+# Each line for a translation. Use \"#\" to comment.
+# Words combine like this: "Original words"-"Translate words"
+
+"Arena 1"-"1阶竞技场"
 "Arena 2"-"2阶竞技场"
 "Arena 3"-"3阶竞技场"
 "Arena 4"-"4阶竞技场"
