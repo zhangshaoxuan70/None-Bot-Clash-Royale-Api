@@ -214,7 +214,7 @@ async def _(event: GroupMessageEvent | PrivateMessageEvent):
                 help_text = "皇室战争信息查询工具 by 钢铁小草（zhangshaoxuan70）\n绑定标签：/cr bind 玩家标签（/cr 绑定 玩家标签）\n检查绑定：/cr check（/cr 检查）\n解除绑定：/cr unbind（/cr 解绑）\n查询信息：/cr info（/cr 信息）（可加他人标签）\n查询宝箱：/cr chest（/cr 宝箱列表/箱子列表/箱子/宝箱）（可加他人标签）\n查询部落信息：/cr clan（/cr 部落）（可加部落标签）\n可在任意指令后添加-help获取该指令的详细说明"
                 if event.message_type == "private" and event.user_id == 1055450040:
                     help_text += "\n/cr lang\n"
-                help_text += "之后会传到Github以供参考\nQQ：1055450040"
+                help_text += "Github：https://github.com/zhangshaoxuan70/None-Bot-Clah-Royale-Api\nQQ：1055450040"
                 await cmd.finish(help_text)
             case "lang":
                 if event.message_type == "private" and event.user_id == 1055450040:
