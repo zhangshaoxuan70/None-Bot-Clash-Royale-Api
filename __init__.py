@@ -182,7 +182,7 @@ async def _(event: GroupMessageEvent | PrivateMessageEvent):
             case "clan" | "部落":#Finally I add this! FINALLY!!!
                 if len(msg_dict) == 2:
                     if check_has_id(event.user_id):
-                        get = config.load_player_clan_id(event.user_id)
+                        get = await config.load_player_clan_id(event.user_id)
                         if get=="NOTAG":
                             cmd.finish("无部落\n加入部落，收获奖励和欢乐！")
                         clan_info = await api_request.get_clan(get)

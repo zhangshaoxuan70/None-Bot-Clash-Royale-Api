@@ -62,7 +62,7 @@ def save_player_id(user_id: int, player_id: str) -> bool:
     else:
         return False
 
-def load_player_clan_id(user_id: int):
+async def load_player_clan_id(user_id: int):
     file_list = loadfile()
     user_id_list = [content.get("user_id") for content in file_list]
     try:
