@@ -2,8 +2,9 @@ import json
 import os
 import NSMC.plugins.clash_royale.api_request as api_request
 
-path = ".\\NSMC\\plugins\\clash_royale\\player.json"
-preinfo_path=".\\NSMC\\plugins\\clash_royale\\preinfo.json"
+mainpath=os.path.split(__file__)[0]
+path = os.path.join(mainpath,"player.json")
+preinfo_path=os.path.join(mainpath,"preinfo.json")
 
 accept_prefile_args=["player_name"]
 
