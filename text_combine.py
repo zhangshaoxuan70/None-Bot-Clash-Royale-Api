@@ -1,4 +1,4 @@
-import NSMC.plugins.clash_royale.lang as lang
+from . import lang
 import os
 arena_en_dict = ["Arena 1", "Arena 2", "Arena 3", "Arena 4", "Arena 5", "Arena 6", "Arena 7", "Arena 8", "Arena 9",
                  "Arena 10", "Arena 11", "Arena 12", "Arena 13", "Arena 14", "Arena 15", "Arena 16", "Arena 17",

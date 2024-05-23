@@ -2,10 +2,10 @@ import requests
 from nonebot import on_message
 from nonebot.adapters.onebot.v11 import GroupMessageEvent, PrivateMessageEvent,MessageSegment
 
-import NSMC.plugins.clash_royale.api_request as api_request
-import NSMC.plugins.clash_royale.config as config
-import NSMC.plugins.clash_royale.text_combine as text_combine
-import NSMC.plugins.clash_royale.lang as lang
+from . import api_request
+from . import config
+from . import text_combine
+from . import lang
 
 player_token = "#C8CL8CV0Q"
 token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjI5NzE1MzM4LTBmOTQtNDJmMy1iYWMwLWQ0MWIxM2ZjOTAyYyIsImlhdCI6MTY5NTEzOTY1NCwic3ViIjoiZGV2ZWxvcGVyLzJjMjFkNjFmLWY1ZmItNjUxYy00Nzk3LWI1YWE2YWM0ZWM3MCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxMTEuMTgwLjE5Mi4xNjgiXSwidHlwZSI6ImNsaWVudCJ9XX0.0UFkl5hTw0daqYCamF1jG9_jKWG25DhzPuQ4CSlF0t26W5Ro5VnOLG1B2Ght719icHSvABer-yqpDp0CoqJiTQ"  # this is token for server

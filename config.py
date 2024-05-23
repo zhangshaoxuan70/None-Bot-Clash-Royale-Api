@@ -1,6 +1,6 @@
 import json
 import os
-import NSMC.plugins.clash_royale.api_request as api_request
+from . import api_request
 
 mainpath=os.path.split(__file__)[0]
 path = os.path.join(mainpath,"player.json")
